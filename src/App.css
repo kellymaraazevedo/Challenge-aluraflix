@@ -1,42 +1,42 @@
-/* Estilos gerais */
+
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 20px;
+  padding: 0px;
 }
 
 h1 {
   color: #333;
 }
 
-/* Estilo para o formulário */
+
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
   width: 100%;
-  max-width: 500px;  /* Limita a largura do formulário */
+  max-width: 500px;  
   margin-left: auto;
   margin-right: auto;
 }
 
 input, textarea {
   width: 100%;
-  max-width: 400px;  /* Define um tamanho máximo para os campos */
+  max-width: 400px;  
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
-  box-sizing: border-box; /* Inclui padding e borda no tamanho do elemento */
+  box-sizing: border-box; 
 }
 
 textarea {
-  height: 150px;  /* Ajusta a altura do textarea */
-  resize: vertical;  /* Permite redimensionamento vertical do campo */
+  height: 150px;  
+  resize: vertical;  
 }
 
-/* Estilo do botão */
+
 button {
   padding: 10px 20px;
   margin: 5px;
@@ -46,19 +46,19 @@ button {
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
-  max-width: 400px;  /* Limita a largura máxima do botão */
+  max-width: 400px;  
 }
 
 button:hover {
   background-color: #45a049;
 }
 
-/* Estilo para a lista de vídeos */
+
 .video-list {
   display: flex;
-  flex-wrap: wrap;  /* Faz os vídeos quebrarem para a próxima linha quando necessário */
-  justify-content: center;  /* Centraliza os itens dentro do container */
-  gap: 20px;  /* Espaço entre os vídeos */
+  flex-wrap: wrap;  
+  justify-content: center;  
+  gap: 20px;  
   padding: 20px;
 }
 
@@ -66,7 +66,7 @@ button:hover {
   background: #f4f4f4;
   padding: 20px;
   border-radius: 5px;
-  width: 250px;  /* Largura dos itens de vídeo */
+  width: 500px;  
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
