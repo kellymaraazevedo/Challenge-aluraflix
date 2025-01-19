@@ -17,8 +17,4 @@ Este é um simples **gerenciador de vídeos** desenvolvido com **React**. O obje
 
 ## Pré-requisitos
 
-Antes de começar, certifique-se de ter o **Node.js** e o **npm** instalados em sua máquina. Você pode verificar se os tem instalados usando os seguintes comandos no terminal:
-
-```bash
-node -v
-npm -v
+Antes de começar, certifique-se de ter o **Node.js** e o **npm** instalados em sua máquina.
